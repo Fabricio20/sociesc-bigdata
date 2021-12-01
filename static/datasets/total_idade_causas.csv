@@ -1,0 +1,31 @@
+group,cid10,count
+Criança,Septicemia Bacteriana,33.58
+Criança,Síndrome da angústia respiratória,22.73
+Criança,Malformação do Coração,18.26
+Criança,Transtornos Maternos,13.35
+Criança,Pneumonia,12.00
+Adolescente,Assasinato na Rua (Arma de Fogo),51.73
+Adolescente,Assasinato (Arma de Fogo),21.19
+Adolescente,Desconhecido,10.76
+Adolescente,Suicidio (Sufocamento),9.38
+Adolescente,Assasinato em Domicílio (Arma de Fogo),6.90
+Adulto,Assasinato (Arma de Fogo),37.61
+Adulto,Desconhecido,18.70
+Adulto,COVID-19,16.98
+Adulto,Assasinato (Arma de Fogo),14.66
+Adulto,Infarto,12.00
+Meia Idade,Infarto,32.81
+Meia Idade,COVID-19,29.62
+Meia Idade,Desconhecido,18.28
+Meia Idade,Cancer de Mama,9.92
+Meia Idade,Cancer Pulmonar,9.34
+Idoso,Infarto,32.77
+Idoso,COVID-19,31.24
+Idoso,Desconhecido,13.10
+Idoso,Cancer Pulmonar,12.41
+Idoso,A.V.C,10.45
+Ancião,Infarto,27.46
+Ancião,COVID-19,24.68
+Ancião,Pneumonia,19.59
+Ancião,A.V.C,15.43
+Ancião,Desconhecido,12.63
