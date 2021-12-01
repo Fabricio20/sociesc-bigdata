@@ -6,6 +6,7 @@
     import MortesTotal from "$lib/articles/MortesTotal.svelte";
     import MortesIdade from "$lib/articles/MortesIdade.svelte";
     import ArticleCovid from "$lib/articles/ArticleCovid.svelte";
+    import ArticleTotal from "$lib/articles/ArticleTotal.svelte";
 </script>
 
 <svelte:head>
@@ -25,6 +26,7 @@
             anim id est laborum.
         </p>
         <ArticleCovid/>
+        <ArticleTotal/>
         <MortesTotal/>
         <MortesIdade/>
     </div>

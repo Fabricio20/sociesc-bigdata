@@ -19,6 +19,20 @@
             const data = dataset.map(function (d) {
                 return +d.count;
             });
+            const colors = dataset.map(function (d) {
+                if (d.year === '2016') {
+                    return '#5A697D';
+                } else if (d.year === '2017') {
+                    return '#279792';
+                } else if (d.year === '2018') {
+                    return '#835CA2';
+                } else if (d.year === '2019') {
+                    return '#9A5057'
+                } else if (d.year === '2020') {
+                    return '#27955C';
+                }
+                return '#6781AB';
+            });
             const average = Utils.movingAvg(data, 12);
             new Chart(id, {
                 data: {
@@ -33,7 +47,7 @@
                     }, {
                         type: 'bar',
                         label: 'Mortes',
-                        backgroundColor: '#5A697D',
+                        backgroundColor: colors,
                         borderColor: '#5A697D',
                         borderWidth: 0,
                         data: data,
