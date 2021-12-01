@@ -5,33 +5,26 @@
     let id = Utils.guid();
 
     onMount(async () => {
-        d3.csv('/datasets/total_idade_causas.csv').then(dataset => {
+        d3.csv('/datasets/total_sexo.csv').then(dataset => {
             // dataset is an array of objects where each object has all columns:
             // {
             //   "a": "1",
             //   "b": "2",
             //   "c": "3"
             // }
-            //dataset.reverse();
             const labels = dataset.map(function (d) {
-                return [d.group, d.cid10];
+                return [d.gender, d.cid10];
             });
             const data = dataset.map(function (d) {
                 return +d.count;
             });
             const colors = dataset.map(function (d) {
-                if (d.group === 'Criança') {
-                    return '#5A697D';
-                } else if (d.group === 'Adolescente') {
-                    return '#279792';
-                } else if (d.group === 'Adulto') {
-                    return '#835CA2';
-                } else if (d.group === 'Meia Idade') {
-                    return '#9A5057'
-                } else if (d.group === 'Idoso') {
-                    return '#27955C';
+                if (d.gender === 'Homem') {
+                    return '#6781AB';
+                } else if (d.gender === 'Mulher') {
+                    return '#9A5057';
                 }
-                return '#6781AB';
+                return '#5A697D';
             });
             new Chart(id, {
                 data: {
