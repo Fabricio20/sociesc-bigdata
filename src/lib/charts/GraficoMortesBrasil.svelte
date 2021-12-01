@@ -1,22 +1,11 @@
 <script>
     import {onMount} from 'svelte';
+    import * as Utils from '../utils';
 
-    onMount(() => {
+    let id = Utils.guid();
 
-        function movingAvg(array, countBefore, countAfter) {
-            if (countAfter === undefined) countAfter = 0;
-            const result = [];
-            for (let i = 0; i < array.length; i++) {
-                const subArr = array.slice(Math.max(i - countBefore, 0), Math.min(i + countAfter + 1, array.length));
-                const avg = subArr.reduce((a, b) => a + (isNaN(b) ? 0 : b), 0) / subArr.length;
-                result.push(avg);
-            }
-            return result;
-        }
-
-        d3.csv('/datasets/total_brasil.csv').then(makeChart);
-
-        function makeChart(dataset) {
+    onMount(async () => {
+        d3.csv('/datasets/total_brasil.csv').then(dataset => {
             // dataset is an array of objects where each object has all columns:
             // {
             //   "a": "1",
@@ -30,8 +19,8 @@
             const data = dataset.map(function (d) {
                 return +d.count;
             });
-            const average = movingAvg(data, 12);
-            new Chart(document.getElementById('myChart').getContext('2d'), {
+            const average = Utils.movingAvg(data, 12);
+            new Chart(id, {
                 data: {
                     labels: labels,
                     datasets: [{
@@ -56,33 +45,11 @@
                             radius: 1.5
                         }
                     },
-                    showScaleValues: true,
-                    scales: {
-                        xAxes: {
-                            ticks: {
-                                autoSkip: true
-                            }
-                        },
-                        y: {
-                            beginAtZero: false
-                        }
-                    },
-                    plugins: {
-                        zoom: {
-                            zoom: {
-                                wheel: {
-                                    enabled: true,
-                                },
-                                pinch: {
-                                    enabled: true
-                                },
-                                mode: 'x',
-                            }
-                        }
-                    }
+                    scales: Utils.scales,
+                    plugins: Utils.plugins
                 }
             });
-        }
+        });
     });
 </script>
 
@@ -91,5 +58,5 @@
 </style>
 
 <div style="width: 100%; overflow-x: auto; overflow-y: hidden">
-    <canvas id="myChart" height="300" width="0"></canvas>
+    <canvas {id} height="300" width="0"></canvas>
 </div>

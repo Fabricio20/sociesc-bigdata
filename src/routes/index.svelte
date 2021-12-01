@@ -5,17 +5,26 @@
 <script>
     import MortesTotal from "$lib/articles/MortesTotal.svelte";
     import MortesIdade from "$lib/articles/MortesIdade.svelte";
+    import ArticleCovid from "$lib/articles/ArticleCovid.svelte";
 </script>
 
 <svelte:head>
-    <title>Trabalho SOCIESC</title>
+    <title>Mortalidade no Brasil</title>
 </svelte:head>
 
 <section>
     <div class="header-container">
-        <h1>Trabalho SOCIESC</h1>
+        <h1>Mortalidade no Brasil</h1>
     </div>
     <div class="wrapper">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+        </p>
+        <ArticleCovid/>
         <MortesTotal/>
         <MortesIdade/>
     </div>

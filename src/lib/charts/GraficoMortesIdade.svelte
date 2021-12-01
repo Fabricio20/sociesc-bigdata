@@ -1,10 +1,11 @@
 <script>
     import {onMount} from 'svelte';
+    import * as Utils from '../utils';
 
-    onMount(() => {
-        d3.csv('/datasets/total_idade.csv').then(makeChart);
+    let id = Utils.guid();
 
-        function makeChart(dataset) {
+    onMount(async () => {
+        d3.csv('/datasets/total_idade.csv').then(dataset => {
             // dataset is an array of objects where each object has all columns:
             // {
             //   "a": "1",
@@ -17,7 +18,7 @@
             const data = dataset.map(function (d) {
                 return +d.count;
             });
-            new Chart(document.getElementById('mortes-idade').getContext('2d'), {
+            new Chart(id, {
                 data: {
                     labels: labels,
                     datasets: [{
@@ -36,32 +37,11 @@
                         }
                     },
                     showScaleValues: true,
-                    scales: {
-                        xAxes: {
-                            ticks: {
-                                autoSkip: true
-                            }
-                        },
-                        y: {
-                            beginAtZero: false
-                        }
-                    },
-                    plugins: {
-                        zoom: {
-                            zoom: {
-                                wheel: {
-                                    enabled: true,
-                                },
-                                pinch: {
-                                    enabled: true
-                                },
-                                mode: 'x',
-                            }
-                        }
-                    }
+                    scales: Utils.scales,
+                    plugins: Utils.plugins
                 }
             });
-        }
+        });
     });
 </script>
 
@@ -70,5 +50,5 @@
 </style>
 
 <div style="width: 100%; overflow-x: auto; overflow-y: hidden">
-    <canvas id="mortes-idade" height="300" width="0"></canvas>
+    <canvas {id} height="300" width="0"></canvas>
 </div>
