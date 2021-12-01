@@ -1,6 +1,6 @@
 <script>
     import ArticleHeader from "$lib/ArticleHeader.svelte";
-    import GraficoMortesBrasil from "$lib/charts/GraficoMortesBrasil.svelte";
+    import ChartTotalDeaths from "$lib/charts/ChartTotalDeaths.svelte";
 </script>
 
 <ArticleHeader title="No Total"/>
@@ -8,7 +8,7 @@
     <p>
         Mas então, após tantos transtornos causados no setor da saúde, como estão os números no geral?
     </p>
-    <GraficoMortesBrasil/>
+    <ChartTotalDeaths/>
     <p>
         Nos primeiros meses de 2020, estávamos na normalidade. De acordo com o ministério da saúde, o primeiro
         caso de COVID-19 no país foi identificado no dia <b>26/02/2020</b>, no entanto, só iriamos perceber

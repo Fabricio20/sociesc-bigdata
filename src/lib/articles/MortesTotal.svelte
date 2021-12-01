@@ -1,5 +1,5 @@
 <script>
-    import GraficoMortesBrasil from "$lib/charts/GraficoMortesBrasil.svelte";
+    import GraficoMortesBrasil from "$lib/charts/ChartTotalDeaths.svelte";
     import ArticleHeader from "$lib/ArticleHeader.svelte";
 </script>
 
