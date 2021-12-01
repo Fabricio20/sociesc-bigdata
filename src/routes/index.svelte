@@ -10,6 +10,7 @@
     import ArticleTotalKillers from "$lib/articles/ArticleTotalKillers.svelte";
     import ArticleTotalAge from "$lib/articles/ArticleTotalAge.svelte";
     import ArticleTotalSex from "$lib/articles/ArticleTotalSex.svelte";
+    import ArticleLifeExpectancy from "$lib/articles/ArticleLifeExpectancy.svelte";
 </script>
 
 <svelte:head>
@@ -33,6 +34,7 @@
         <ArticleTotalKillers/>
         <ArticleTotalAge/>
         <ArticleTotalSex/>
+        <ArticleLifeExpectancy/>
 
         <MortesTotal/>
         <MortesIdade/>
