@@ -12,8 +12,7 @@
     <p>
         Nos primeiros meses de 2020, estávamos na normalidade. De acordo com o ministério da saúde, o primeiro
         caso de COVID-19 no país foi identificado no dia <b>26/02/2020</b>, no entanto, só iriamos perceber
-        seus efeitos no mês seguinte, com um aumento inicial de <b>9.86%</b> em relação aos anos de
-        <b>2018</b> e <b>2019</b>.
+        seus efeitos no mês seguinte, com um aumento inicial de <b>9.86%</b> em relação aos anos de 2018 e 2019.
     </p>
     <p>
         Esta situação só veio a piorar com o passar do tempo, atingindo um pico de <b>32.14%</b> em relação aos anos
