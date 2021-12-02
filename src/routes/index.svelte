@@ -3,8 +3,6 @@
 </script>
 
 <script>
-    import MortesTotal from "$lib/articles/MortesTotal.svelte";
-    import MortesIdade from "$lib/articles/MortesIdade.svelte";
     import ArticleCovid from "$lib/articles/ArticleCovid.svelte";
     import ArticleTotal from "$lib/articles/ArticleTotal.svelte";
     import ArticleTotalKillers from "$lib/articles/ArticleTotalKillers.svelte";
@@ -20,7 +18,6 @@
     import ChartRenalOverTime from "$lib/charts/ChartRenalOverTime.svelte";
     import ChartRenalAge from "$lib/charts/ChartRenalAge.svelte";
     import ChartRenalSex from "$lib/charts/ChartRenalSex.svelte";
-    import Ponderada from "$lib/Ponderada.svelte";
 </script>
 
 <svelte:head>
@@ -68,9 +65,6 @@
         <ChartRenalAge/>
         Renal x Sexo
         <ChartRenalSex/>
-
-        <MortesTotal/>
-        <MortesIdade/>
     </div>
 </section>
 
