@@ -18,6 +18,7 @@
     import ChartRenalOverTime from "$lib/charts/ChartRenalOverTime.svelte";
     import ChartRenalAge from "$lib/charts/ChartRenalAge.svelte";
     import ChartRenalSex from "$lib/charts/ChartRenalSex.svelte";
+    import ArticleDengue from "$lib/articles/ArticleDengue.svelte";
 </script>
 
 <svelte:head>
@@ -37,19 +38,12 @@
             anim id est laborum.
         </p>
         <ArticleCovid/>
+        <ArticleDengue/>
         <ArticleTotal/>
         <ArticleTotalKillers/>
         <ArticleTotalAge/>
         <ArticleTotalSex/>
         <ArticleLifeExpectancy/>
-
-        <hr/>
-        Dengue
-        <ChartDengueOverTime/>
-        Dengue x Outras
-        <ChartDengueOthers/>
-        Dengue x Idade
-        <ChartDengueAge/>
 
         <hr/>
         Tuberculose Over Time
