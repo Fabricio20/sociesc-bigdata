@@ -3,7 +3,7 @@
     import ChartTotalDeaths from "$lib/charts/ChartTotalDeaths.svelte";
 </script>
 
-<ArticleHeader title="No Total"/>
+<ArticleHeader id="totals" title="No Total"/>
 <div class="article">
     <p>
         Mas então, após tantos transtornos causados no setor da saúde, como estão os números no geral?

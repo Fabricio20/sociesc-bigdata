@@ -6,7 +6,7 @@
     import ChartSuicideByAge from "$lib/charts/ChartSuicideByAge.svelte";
 </script>
 
-<ArticleHeader title="Saúde Mental"/>
+<ArticleHeader id="suicide" title="Saúde Mental"/>
 <div class="article">
     <p>
         Recentemente, o tema de saúde mental veio a receber mais atenção, principalmente durante o isolamento causado

@@ -6,7 +6,7 @@
     import ChartHomicideRace from "$lib/charts/ChartHomicideRace.svelte";
 </script>
 
-<ArticleHeader title="Homicídios"/>
+<ArticleHeader id="homicide" title="Homicídios"/>
 <div class="article">
     <ChartHomicideOverTime/>
     <p>

@@ -3,7 +3,7 @@
     import ChartLifeExpectancy from "$lib/charts/ChartLifeExpectancy.svelte";
 </script>
 
-<ArticleHeader title="Expectativa de Vida"/>
+<ArticleHeader id="expectancy" title="Expectativa de Vida"/>
 <div class="article">
     <p>
         E com esses dados, podemos estimar a expectativa de vida.

@@ -16,6 +16,10 @@
     --column-margin-top: 4rem;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 100vh;
     margin: 0;

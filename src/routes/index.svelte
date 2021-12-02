@@ -24,7 +24,7 @@
     <title>Mortalidade no Brasil</title>
 </svelte:head>
 
-<section>
+<section id="home">
     <div class="header-container">
         <h1>Mortalidade no Brasil</h1>
     </div>
@@ -65,6 +65,7 @@
 
 <style>
     .header-container {
+        margin-top: 48px;
         display: flex;
         justify-content: center;
     }
