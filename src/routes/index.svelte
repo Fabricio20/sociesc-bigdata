@@ -9,9 +9,6 @@
     import ArticleTotalAge from "$lib/articles/ArticleTotalAge.svelte";
     import ArticleTotalSex from "$lib/articles/ArticleTotalSex.svelte";
     import ArticleLifeExpectancy from "$lib/articles/ArticleLifeExpectancy.svelte";
-    import ChartDengueOverTime from "$lib/charts/ChartDengueOverTime.svelte";
-    import ChartDengueOthers from "$lib/charts/ChartDengueOthers.svelte";
-    import ChartDengueAge from "$lib/charts/ChartDengueAge.svelte";
     import ChartTuberculoseOverTime from "$lib/charts/ChartTuberculoseOverTime.svelte";
     import ChartTuberculoseAge from "$lib/charts/ChartTuberculoseAge.svelte";
     import ChartTuberculoseSex from "$lib/charts/ChartTuberculoseSex.svelte";
@@ -19,6 +16,7 @@
     import ChartRenalAge from "$lib/charts/ChartRenalAge.svelte";
     import ChartRenalSex from "$lib/charts/ChartRenalSex.svelte";
     import ArticleDengue from "$lib/articles/ArticleDengue.svelte";
+    import ArticleSuicide from "$lib/articles/ArticleSuicide.svelte";
 </script>
 
 <svelte:head>
@@ -44,6 +42,7 @@
         <ArticleTotalAge/>
         <ArticleTotalSex/>
         <ArticleLifeExpectancy/>
+        <ArticleSuicide/>
 
         <hr/>
         Tuberculose Over Time
