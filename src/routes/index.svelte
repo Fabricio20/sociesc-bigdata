@@ -20,6 +20,7 @@
     import ChartRenalOverTime from "$lib/charts/ChartRenalOverTime.svelte";
     import ChartRenalAge from "$lib/charts/ChartRenalAge.svelte";
     import ChartRenalSex from "$lib/charts/ChartRenalSex.svelte";
+    import Ponderada from "$lib/Ponderada.svelte";
 </script>
 
 <svelte:head>

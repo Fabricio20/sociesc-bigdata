@@ -24,7 +24,6 @@
             }
             const avgM = Utils.movingAvg(dataM, 0, 100);
             const avgF = Utils.movingAvg(dataF, 0, 100);
-            console.log(dataM);
             new Chart(id, {
                 data: {
                     labels: ['2016', '2017', '2018', '2019', '2020'],
