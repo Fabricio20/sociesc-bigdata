@@ -30,6 +30,14 @@ export const plugins = {
     }
 }
 
+export let scalesNoTicks = {
+    x: {
+        ticks: {
+            display: false
+        }
+    }
+};
+
 export const scales = {
     xAxes: {
         ticks: {
