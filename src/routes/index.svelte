@@ -17,6 +17,9 @@
     import ChartTuberculoseOverTime from "$lib/charts/ChartTuberculoseOverTime.svelte";
     import ChartTuberculoseAge from "$lib/charts/ChartTuberculoseAge.svelte";
     import ChartTuberculoseSex from "$lib/charts/ChartTuberculoseSex.svelte";
+    import ChartRenalOverTime from "$lib/charts/ChartRenalOverTime.svelte";
+    import ChartRenalAge from "$lib/charts/ChartRenalAge.svelte";
+    import ChartRenalSex from "$lib/charts/ChartRenalSex.svelte";
 </script>
 
 <svelte:head>
@@ -57,6 +60,13 @@
         <ChartTuberculoseAge/>
         Tuberculose x Sexo
         <ChartTuberculoseSex/>
+        <hr/>
+        Renal Over Time
+        <ChartRenalOverTime/>
+        Renal x Idade
+        <ChartRenalAge/>
+        Renal x Sexo
+        <ChartRenalSex/>
 
         <MortesTotal/>
         <MortesIdade/>
