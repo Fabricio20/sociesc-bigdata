@@ -11,6 +11,9 @@
     import ArticleTotalAge from "$lib/articles/ArticleTotalAge.svelte";
     import ArticleTotalSex from "$lib/articles/ArticleTotalSex.svelte";
     import ArticleLifeExpectancy from "$lib/articles/ArticleLifeExpectancy.svelte";
+    import ChartDengueOverTime from "$lib/charts/ChartDengueOverTime.svelte";
+    import ChartDengueOthers from "$lib/charts/ChartDengueOthers.svelte";
+    import ChartDengueAge from "$lib/charts/ChartDengueAge.svelte";
 </script>
 
 <svelte:head>
@@ -35,6 +38,13 @@
         <ArticleTotalAge/>
         <ArticleTotalSex/>
         <ArticleLifeExpectancy/>
+
+        Dengue
+        <ChartDengueOverTime/>
+        Dengue x Outras
+        <ChartDengueOthers/>
+        Dengue x Idade
+        <ChartDengueAge/>
 
         <MortesTotal/>
         <MortesIdade/>
