@@ -23,7 +23,16 @@
                 <a href="#homicide">Homicídios</a>
             </li>
             <li>
-                <a sveltekit:prefetch href="/about">About</a>
+                <a href="#dengue">Dengue</a>
+            </li>
+            <li>
+                <a href="#tuberculose">Tuberculose</a>
+            </li>
+            <li>
+                <a href="#renais">Doenças Renais</a>
+            </li>
+            <li>
+                <a sveltekit:prefetch href="/about">Sobre</a>
             </li>
         </ul>
         <svg viewBox="0 0 2 3" aria-hidden="true">

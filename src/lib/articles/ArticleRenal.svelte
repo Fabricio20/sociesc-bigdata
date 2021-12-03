@@ -8,7 +8,7 @@
     import ChartRenalSex from "$lib/charts/ChartRenalSex.svelte";
 </script>
 
-<ArticleHeader id="renal" title="Doenças Renais"/>
+<ArticleHeader id="renais" title="Doenças Renais"/>
 <div class="article">
     <ChartRenalOverTime/>
     <p>

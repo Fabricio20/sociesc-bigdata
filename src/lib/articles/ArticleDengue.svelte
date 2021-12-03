@@ -8,7 +8,7 @@
     import ChartDengueOverTime from "$lib/charts/ChartDengueOverTime.svelte";
 </script>
 
-<ArticleHeader title="Dengue"/>
+<ArticleHeader id="dengue" title="Dengue"/>
 <div class="article">
     <ChartDengueOverTime/>
     <p>
