@@ -18,6 +18,7 @@
     import ArticleSuicide from "$lib/articles/ArticleSuicide.svelte";
     import ArticleHomicides from "$lib/articles/ArticleHomicides.svelte";
     import ArticleIntroduction from "$lib/articles/ArticleIntroduction.svelte";
+    import ArticleTuberculose from "$lib/articles/ArticleTuberculose.svelte";
 </script>
 
 <svelte:head>
@@ -39,13 +40,8 @@
         <ArticleHomicides/>
         <ArticleDengue/>
 
-        <hr/>
-        Tuberculose Over Time
-        <ChartTuberculoseOverTime/>
-        Tuberculose x Idade
-        <ChartTuberculoseAge/>
-        Tuberculose x Sexo
-        <ChartTuberculoseSex/>
+        <ArticleTuberculose/>
+
         <hr/>
         Renal Over Time
         <ChartRenalOverTime/>
