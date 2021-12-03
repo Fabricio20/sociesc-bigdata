@@ -22,8 +22,8 @@
                     dataC.push(+d.count);
                 }
             }
-            const avgD = Utils.movingAvg(dataD, 0, 100);
-            const avgC = Utils.movingAvg(dataC, 0, 100);
+            const avgD = Utils.movingAvg(dataD, 1);
+            const avgC = Utils.movingAvg(dataC, 1);
             new Chart(id, {
                 data: {
                     labels: ['2016', '2017', '2018', '2019', '2020'],

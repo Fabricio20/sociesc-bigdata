@@ -37,7 +37,6 @@
         <ArticleLifeExpectancy/>
         <ArticleSuicide/>
         <ArticleHomicides/>
-
         <ArticleDengue/>
 
         <hr/>

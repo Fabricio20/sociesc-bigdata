@@ -96,3 +96,8 @@ button:focus:not(:focus-visible) {
 .article {
     text-align: justify;
 }
+
+.chart-title {
+    font-size: 12px;
+    text-align: center;
+}

@@ -13,7 +13,7 @@
         new Chart(id, {
             type: 'pie',
             data: {
-                labels: ['Homems', 'Mulheres'],
+                labels: ['Homens', 'Mulheres'],
                 datasets: [{
                     backgroundColor: [
                         '#6781AB',
