@@ -66,4 +66,7 @@
 
 <div style="width: 100%; overflow-x: auto; overflow-y: hidden">
     <canvas {id} height="300" width="0"></canvas>
+    <p class="chart-title">
+        Mortes por doenças renais, por grupo de idade, durante o período de 04/2016 a 04/2021
+    </p>
 </div>

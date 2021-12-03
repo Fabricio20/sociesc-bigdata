@@ -73,4 +73,7 @@
 
 <div style="width: 100%; overflow-x: auto; overflow-y: hidden">
     <canvas {id} height="300" width="0"></canvas>
+    <p class="chart-title">
+        Tuberculose no Brasil, por sexo, durante o período de 01/2016 a 12/2020
+    </p>
 </div>

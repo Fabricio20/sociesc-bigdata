@@ -38,3 +38,6 @@
 <div style="width: 100%; overflow-x: auto; overflow-y: hidden;">
     <canvas {id} height="250" width="0"></canvas>
 </div>
+<p class="chart-title">
+    Homicídios por sexo, durante o período de 04/2016 a 04/2021
+</p>
