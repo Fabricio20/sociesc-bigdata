@@ -3,7 +3,6 @@
 </script>
 
 <script>
-    import ArticleCovid from "$lib/articles/ArticleCovid.svelte";
     import ArticleTotal from "$lib/articles/ArticleTotal.svelte";
     import ArticleTotalKillers from "$lib/articles/ArticleTotalKillers.svelte";
     import ArticleTotalAge from "$lib/articles/ArticleTotalAge.svelte";
@@ -18,6 +17,7 @@
     import ArticleDengue from "$lib/articles/ArticleDengue.svelte";
     import ArticleSuicide from "$lib/articles/ArticleSuicide.svelte";
     import ArticleHomicides from "$lib/articles/ArticleHomicides.svelte";
+    import ArticleIntroduction from "$lib/articles/ArticleIntroduction.svelte";
 </script>
 
 <svelte:head>
@@ -29,15 +29,7 @@
         <h1>Mortalidade no Brasil</h1>
     </div>
     <div class="wrapper">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-        </p>
-        <ArticleCovid/>
-        <ArticleDengue/>
+        <ArticleIntroduction/>
         <ArticleTotal/>
         <ArticleTotalKillers/>
         <ArticleTotalAge/>
@@ -45,6 +37,8 @@
         <ArticleLifeExpectancy/>
         <ArticleSuicide/>
         <ArticleHomicides/>
+
+        <ArticleDengue/>
 
         <hr/>
         Tuberculose Over Time

@@ -8,18 +8,12 @@
 <ArticleHeader title="Dengue"/>
 <div class="article">
     <p>
-        As doenças transmitidas pelo Aedes aegypti , chamadas de arboviroses,
-        têm se constituído um dos principais problemas de saúde pública no
-        mundo, sendo a dengue de maior relevância no brasil, os numeros de casos
-        de obitos são preocupantes temos o ano de <strong>2019</strong> o maior
-        índice de óbitos pela doença que ocorreram nos últimos 5 anos com
-        <strong>1.048 mortes</strong>
-        tendo uma diferença de <strong>15%</strong> do segundo maior índice que
-        é <strong>2020</strong> com <strong>891</strong> e o terceiro ano
-        <strong>2016</strong>
-        com <strong>473</strong>.
-        <i>O mês com mais mortes de dengue foi <strong>maio de 2019</strong>.</i
-        >
+        As doenças transmitidas pelo Aedes Aegypti, chamadas de arboviroses, têm se constituído um dos principais
+        problemas de saúde pública no mundo, sendo a dengue de maior relevância no brasil, os numeros de casos de obitos
+        são preocupantes temos o ano de <strong>2019</strong> o maior índice de óbitos pela doença que ocorreram nos
+        últimos 5 anos com <strong>1.048 mortes</strong> tendo uma diferença de <strong>15%</strong> do segundo maior
+        índice que é <strong>2020</strong> com <strong>891</strong> e o terceiro ano <strong>2016</strong> com
+        <strong>473</strong>. <i>O mês com mais mortes de dengue foi <strong>maio de 2019</strong>.</i>
     </p>
     <p>
         O Gráfico abaixo corresponde ao número de óbitos de dengue (localizado
