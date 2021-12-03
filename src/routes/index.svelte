@@ -8,12 +8,6 @@
     import ArticleTotalAge from "$lib/articles/ArticleTotalAge.svelte";
     import ArticleTotalSex from "$lib/articles/ArticleTotalSex.svelte";
     import ArticleLifeExpectancy from "$lib/articles/ArticleLifeExpectancy.svelte";
-    import ChartTuberculoseOverTime from "$lib/charts/ChartTuberculoseOverTime.svelte";
-    import ChartTuberculoseAge from "$lib/charts/ChartTuberculoseAge.svelte";
-    import ChartTuberculoseSex from "$lib/charts/ChartTuberculoseSex.svelte";
-    import ChartRenalOverTime from "$lib/charts/ChartRenalOverTime.svelte";
-    import ChartRenalAge from "$lib/charts/ChartRenalAge.svelte";
-    import ChartRenalSex from "$lib/charts/ChartRenalSex.svelte";
     import ArticleDengue from "$lib/articles/ArticleDengue.svelte";
     import ArticleSuicide from "$lib/articles/ArticleSuicide.svelte";
     import ArticleHomicides from "$lib/articles/ArticleHomicides.svelte";
