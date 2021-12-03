@@ -1,3 +1,6 @@
+<script context="module">
+    export const prerender = true;
+</script>
 <script>
     import ArticleHeader from "$lib/ArticleHeader.svelte";
     import ChartTuberculoseOverTime from "$lib/charts/ChartTuberculoseOverTime.svelte";

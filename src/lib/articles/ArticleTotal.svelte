@@ -1,3 +1,6 @@
+<script context="module">
+    export const prerender = true;
+</script>
 <script>
     import ArticleHeader from "$lib/ArticleHeader.svelte";
     import ChartTotalDeaths from "$lib/charts/ChartTotalDeaths.svelte";
@@ -6,7 +9,7 @@
 <ArticleHeader id="totals" title="No Total"/>
 <div class="article">
     <p>
-        Mas então, após tantos transtornos causados no setor da saúde, como estão os números no geral?
+        Mas então, após tantos transtornos causados no setor da saúde em 2020, como estão os números no geral?
     </p>
     <ChartTotalDeaths/>
     <p>
