@@ -11,25 +11,25 @@
                 <a sveltekit:prefetch href="/">Home</a>
             </li>
             <li>
-                <a href="#totals">No Total</a>
+                <a href="/#totals">No Total</a>
             </li>
             <li>
-                <a href="#expectancy">Expectativa de Vida</a>
+                <a href="/#expectancy">Expectativa de Vida</a>
             </li>
             <li>
-                <a href="#suicide">Saúde Mental</a>
+                <a href="/#suicide">Saúde Mental</a>
             </li>
             <li>
-                <a href="#homicide">Homicídios</a>
+                <a href="/#homicide">Homicídios</a>
             </li>
             <li>
-                <a href="#dengue">Dengue</a>
+                <a href="/#dengue">Dengue</a>
             </li>
             <li>
-                <a href="#tuberculose">Tuberculose</a>
+                <a href="/#tuberculose">Tuberculose</a>
             </li>
             <li>
-                <a href="#renais">Doenças Renais</a>
+                <a href="/#renais">Doenças Renais</a>
             </li>
             <li>
                 <a sveltekit:prefetch href="/about">Sobre</a>
