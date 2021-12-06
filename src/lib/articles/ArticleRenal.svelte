@@ -21,9 +21,9 @@
     <ChartRenalAge/>
     <p>
         Existe uma relação direta entre o envelhecimento, e doenças renais. Segundo a Sociedade brasileira de
-        Nefrologia, a insuficiência renal pode atingir de 30% a 50% das pessoas com mais de 65 anos, isso por que ao
+        Nefrologia, a insuficiência renal pode atingir de 30% a 50% das pessoas com mais de 65 anos, isso porque ao
         envelhecer, o corpo reduz o ritmo da filtração glomerular. Portanto, é necessário ter cuidado extra com os rins
-        após os 45 anos de idade, tendo uma alimentação saudável e realizar exames de rotina.
+        após os 45 anos de idade, ter uma alimentação saudável e realizar exames de rotina.
     </p>
     <ChartRenalSex/>
     <p>

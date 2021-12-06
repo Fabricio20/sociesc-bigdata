@@ -14,8 +14,8 @@
     <p>
         Neste gráfico, podemos perceber que a tuberculose em crianças e adolescentes é um número infinitesimal quando
         comparado aos mais velhos, não chega nem aos três dígitos, enquanto nos adultos passa de dez mil mortes
-        confirmadas. Após os 20 anos, observa-se um declínio gradual, tendo mais enfase acimas dos 75, no qual as mortes
-        por tuberculose cai em <b>100%</b>.
+        confirmadas. Após os 20 anos, observa-se um declínio gradual, tendo mais ênfase acima dos 75, no qual as mortes
+        por tuberculose caem em <b>100%</b>.
     </p>
     <ChartTuberculoseSex/>
     <p>
